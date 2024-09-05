@@ -45,3 +45,15 @@ class Atleta(Persona):
         return 'Atleta (nombre={}, peso={}, estatura={})'.format(
             self.nombre, self.peso, self.estatura
         )
+'''  
+Clase: Persona_paramtrizada 
+Objetivo: usar parámetros en métodos y constructor para sobrecargar 
+Fecha: 05/09/2024
+'''
+class Persona_parametrizada:
+    #Definir el constructor
+    def _init_(self, nombre=Nome, peso=Nome):
+        if nombre:
+            self.nombre = nombre 
+        if nombre:
+            self.peso = peso 
